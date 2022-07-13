@@ -9,8 +9,8 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 import:
-  - ~/.config/alacritty/catppuccin.yml
-
+  #- ~/.config/alacritty/catppuccin.yml
+  #- ~/.config/alacritty/dracula.yml
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.9
+  opacity: 1.0
 
   # Startup Mode (changes require restart)
   #
@@ -81,7 +81,7 @@ window:
   #startup_mode: Windowed
 
   # Window title
-  #title: Alacritty
+  title: Alacritty
 
   # Allow terminal applications to change Alacritty's window title.
   #dynamic_title: true
@@ -380,16 +380,16 @@ font:
   # When set to `true`, selected text will be copied to the primary clipboard.
   #save_to_clipboard: false
 
-#cursor:
+cursor:
   # Cursor style
-  #style:
+  style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    #shape: Block
+    shape: Beam
 
     # Cursor blinking state
     #
@@ -398,7 +398,7 @@ font:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-    #blinking: Off
+    blinking: On
 
   # Vi mode cursor style
   #
