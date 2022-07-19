@@ -8,9 +8,9 @@
 #
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
-#import:
+import:
   #- ~/.config/alacritty/catppuccin.yml
-  #- ~/.config/alacritty/dracula.yml
+  - ~/.config/alacritty/dracula.yml
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
@@ -157,7 +157,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 14
+  size: 12
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
